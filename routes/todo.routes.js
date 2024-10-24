@@ -4,6 +4,7 @@ const router = express.Router();
 
 router.post("/", todoController.createTodo);
 router.get("/", todoController.getTodos);
-router.get("/:todoId", todoController.getTodoById)
+router.get("/:todoId", todoController.getTodoById);
+router.get("/:todoId", todoController.updateTodo);
 
 module.exports = router;
