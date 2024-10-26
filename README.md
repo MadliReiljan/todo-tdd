@@ -1,6 +1,6 @@
 # Todo-tdd
 
-What have I learned from this small project using Postman:
+## What have I learned from this small project:
 
 * Writing and using unit tests – Learning how to create unit tests to ensure individual components of the code work as expected.
 * Unit testing for HTTP POST requests – Testing the functionality of HTTP POST requests to ensure data is correctly sent to the server.
@@ -10,3 +10,5 @@ What have I learned from this small project using Postman:
 * Testing HTTP GET requests for querying data by ID – Verifying that HTTP GET requests can retrieve specific data based on its ID.
 * Testing HTTP PUT requests – Ensuring that HTTP PUT requests are correctly updating data on the server.
 * Testing HTTP DELETE requests – Validating that HTTP DELETE requests successfully remove data from the server.
+
+I primarily worked on the routing system and used Postman to test the API endpoints.
